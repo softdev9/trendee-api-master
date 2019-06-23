@@ -5,6 +5,23 @@ import (
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/yvesmani/trendee-api/Godeps/_workspace/src/github.com/gorilla/mux"
+	"github.com/yvesmani/trendee-api/Godeps/_workspace/src/gopkg.in/mgo.v2"
+	"github.com/yvesmani/trendee-api/gateways"
+	"github.com/yvesmani/trendee-api/handlers"
+	"github.com/yvesmani/trendee-api/handlers/v0"
+	"github.com/yvesmani/trendee-api/handlers/v0/article"
+	"github.com/yvesmani/trendee-api/handlers/v0/facebook"
+	"github.com/yvesmani/trendee-api/handlers/v0/follow"
+	"github.com/yvesmani/trendee-api/handlers/v0/home"
+	"github.com/yvesmani/trendee-api/handlers/v0/login"
+	"github.com/yvesmani/trendee-api/handlers/v0/profilepicture"
+	"github.com/yvesmani/trendee-api/handlers/v0/register"
+	"github.com/yvesmani/trendee-api/handlers/v0/selfie"
+	"github.com/yvesmani/trendee-api/handlers/v0/user"
+	"github.com/yvesmani/trendee-api/handlers/v0/vote"
+	"github.com/yvesmani/trendee-api/handlers/web/appinvite"
 )
 
 const (
@@ -23,6 +40,46 @@ func main() {
 		log.Println("[INFO] In Prod env")
 		dbHost = os.Getenv("MONGODB_PROD")
 	}
+	port := os.Getenv("PORT")
+	if port == "" {
+		log.Println("[ERROR] Web server herror : No Port specified")
+		os.Exit(1)
+	}
+	if dbHost == "" {
+		log.Println("[ERROR] Mongo db error : MONGODB_PROD not set OR MONGODB_TEST if you set the test flag ")
+		os.Exit(1)
+	}
+	dbSession, err := mgo.Dial(dbHost)
+	if err != nil {
+		log.Println("[ERROR] not able to connect to db host ", err)
+		os.Exit(1)
+	}
+	defer dbSession.Close()
+	sender := gateways.InitMailGun()
+	r := mux.NewRouter()
+
+	r.HandleFunc("/home", handlers.WithAuthToken(home.GetHome)).Methods("GET")
+	r.HandleFunc("/article/mark", handlers.WithAuthToken(article.PostLikeArticle)).Methods("POST")
+	r.HandleFunc("/article", handlers.WithAuthToken(article.ArticleDetails)).Methods("GET")
+	r.HandleFunc("/colors", v0.GetColorList).Methods("GET")
+	r.HandleFunc("/brands", v0.GetBrandList).Methods("GET")
+	r.HandleFunc("/user/follow", handlers.WithAuthToken(follow.PostFollow)).Methods("POST")
+	r.HandleFunc("/user/register", register.RegisterPost).Methods("POST")
+	r.HandleFunc("/user/login", login.Login).Methods("POST")
+	r.HandleFunc("/user/facebook", facebook.PostFBToken).Methods("POST")
+	r.HandleFunc("/user/profilepicture", handlers.WithAuthToken(profilepicture.UploadProfilePic)).Methods("POST")
+	r.HandleFunc("/user", v0.GetProfile).Methods("GET")
+	r.HandleFunc("/user/follower", handlers.WithAuthToken(user.GetFollowers)).Methods("GET")
+	r.HandleFunc("/user/following", handlers.WithAuthToken(user.GetFollowing)).Methods("GET")
+	r.HandleFunc("/user/profile", handlers.WithAuthToken(user.GetProfile)).Methods("GET")
+	r.HandleFunc("/user", handlers.WithAuthToken(user.UpdateProfile)).Methods("PUT")
+	r.HandleFunc("/selfie", handlers.WithAuthToken(selfie.UploadSelfie)).Methods("POST")
+	r.HandleFunc("/selfie", handlers.WithAuthToken(selfie.GetDetails)).Methods("GET")
+	r.HandleFunc("/selfie/vote", handlers.WithAuthToken(vote.PostVote)).Methods("POST")
+	r.HandleFunc("/appinvite", appinvite.GetAppInviteHTML).Methods("GET")
+	r.HandleFunc("/anonymous/selfie", selfie.GetDetailsAnonymous).Methods("GET")
+	r.HandleFunc("/anonymous/article", article.GetDetailsAnonymous).Methods("GET")
+
 	http.Handle("/", handlers.Adapt(
 		r,
 		handlers.WithMailSender(sender),
