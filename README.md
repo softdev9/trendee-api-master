@@ -1,1 +1,1 @@
-"# trendee-api-master" 
+# trendee-api-master
