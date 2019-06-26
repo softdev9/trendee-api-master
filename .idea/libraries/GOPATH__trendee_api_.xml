@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;trendee-api&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$USER_HOME$/gopath/src/gopkg.in" />
+      <root url="file://$USER_HOME$/gopath/src/github.com" />
+      <root url="file://$USER_HOME$/gopath/src/golang.org" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$USER_HOME$/gopath/src/gopkg.in" />
+      <root url="file://$USER_HOME$/gopath/src/github.com" />
+      <root url="file://$USER_HOME$/gopath/src/golang.org" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
