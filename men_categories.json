@@ -1,0 +1,539 @@
+{
+  "categories":[
+    {
+      "id": "top",
+      "fr": "Tops",
+      "en": "Tops",
+      "subCategories": [
+        {
+          "id": "t-shirt",
+          "fr": "T-Shirt",
+          "en": "T-Shirt"
+        },
+        {
+          "id": "jumpsuit",
+          "fr": "Combinaison",
+          "en": "Jumpsuit"
+        },
+        {
+          "id": "shortsleeve",
+          "fr": "Manche courtes",
+          "en": "Shortsleeve"
+        },
+        {
+          "id": "sleeveless",
+          "fr": "Sans manches",
+          "en": "Sleeveless"
+        },
+        {
+          "id": "longsleeve",
+          "fr": "Manches longues",
+          "en": "Longsleeve"
+        },
+        {
+          "id": "tank",
+          "fr": "Débardeur",
+          "en": "Tank"
+        },
+        {
+          "id": "printed",
+          "fr": "Imprimé",
+          "en": "Printed"
+        },
+        {
+          "id": "v-neck",
+          "fr": "Col V",
+          "en": "V-Neck"
+        },
+        {
+          "id": "polo",
+          "fr": "Polo",
+          "en": "Polo"
+        }
+      ]
+    },
+    {
+      "id": "shirt",
+      "fr": "Chemises",
+      "en": "Shirts",
+      "subCategories": [
+        {
+          "id": "longsleeve",
+          "fr": "Manches longues",
+          "en": "Longsleeve"
+        },
+        {
+          "id": "shortsleeve",
+          "fr": "Manche courtes",
+          "en": "Shortsleeve"
+        },
+        {
+          "id": "dressed",
+          "fr": "Habillé",
+          "en": "Dressed"
+        },
+        {
+          "id": "gingham",
+          "fr": "A carreaux",
+          "en": "Gingham"
+        },
+        {
+          "id": "mao collar",
+          "fr": "A col Mao",
+          "en": "Mao Collar"
+        }
+      ]
+    },
+    {
+      "id": "jackets",
+      "fr": "Veste",
+      "en": "Jackets",
+      "subCategories": [
+        {
+          "id": "denim",
+          "fr": "Jeans",
+          "en": "Denim"
+        },
+        {
+          "id": "leather",
+          "fr": "Cuir",
+          "en": "Leather"
+        },
+        {
+          "id": "blazers",
+          "fr": "Blazers",
+          "en": "Blazers"
+        },
+        {
+          "id": "faux fur",
+          "fr": "Fausse fourrure",
+          "en": " Faux fur"
+        },
+        {
+          "id": "suede",
+          "fr": "Daim",
+          "en": "Suede"
+        },
+        {
+          "id": "velvet",
+          "fr": "Velour",
+          "en": "Velvet"
+        },
+        {
+          "id": "fur",
+          "fr": "Fourrure",
+          "en": "Fur"
+        }
+      ]
+    },
+    {
+      "id": "outwear",
+      "fr": "Manteaux",
+      "en": "Outwear",
+      "subCategories": [
+        {
+          "id": "coat",
+          "fr": "Manteau de pluie",
+          "en": "Coat"
+        },
+        {
+          "id": "leather",
+          "fr": "Cuir",
+          "en": "Leather"
+        },
+        {
+          "id": "suede",
+          "fr": "Daim",
+          "en": "Suede"
+        },
+        {
+          "id": "puffers",
+          "fr": "Doudoune",
+          "en": "Puffers"
+        },
+        {
+          "id": "trenchcoat",
+          "fr": "Trench",
+          "en": "Trenchcoat"
+        },
+        {
+          "id": "overcoat",
+          "fr": "Pardessus",
+          "en": "Overcoat"
+        },
+        {
+          "id": "wool",
+          "fr": "Laine",
+          "en": "Wool"
+        }
+      ]
+    },
+
+    {
+      "id": "pants",
+      "fr": "Pantalon",
+      "en": "Pants",
+      "subCategories": [
+        {
+          "id": "denim",
+          "fr": "Jeans",
+          "en": "Denim"
+        },
+        {
+          "id": "chinos & khakis",
+          "fr": "Chino",
+          "en": "Chinos and Khakis"
+        },
+        {
+          "id": "dressed",
+          "fr": "Habillé",
+          "en": "Dressed"
+        },
+        {
+          "id": "casual",
+          "fr": "Décontracté",
+          "en": "Casual"
+        },
+        {
+          "id": "cargo",
+          "fr": "Treillis",
+          "en": "Cargo"
+        },
+        {
+          "id": "jogger",
+          "fr": "Jogging",
+          "en": "Jogger"
+        }
+      ]
+    },
+    {
+      "id": "shorts",
+      "fr": "Shorts",
+      "en": "Shorts",
+      "subCategories": [
+        {
+          "id": "classic  bermuda",
+          "fr": "Bermuda classic",
+          "en": "Classic Bermuda"
+        },
+        {
+          "id": "denim",
+          "fr": "Jeans",
+          "en": "Denim"
+        },
+        {
+          "id": "chinos & khakis",
+          "fr": "Chino",
+          "en": "Chinos and Khakis"
+        },
+        {
+          "id": "jogger",
+          "fr": "Jogging",
+          "en": "Jogger"
+        },
+        {
+          "id": "cargo",
+          "fr": "Treillis",
+          "en": "Cargo"
+        }
+      ]
+    },
+
+
+    {
+      "id": "sweaters",
+      "fr": "Pull & Gilets",
+      "en": "Sweaters",
+      "subCategories": [
+        {
+          "id": "cardigan",
+          "fr": "Gilet",
+          "en": "Gilet"
+        },
+        {
+          "id": "zip up cardigan",
+          "fr": "Gilet à Zip",
+          "en": "Zipup Cardigan"
+        },
+        {
+          "id": "cashmere",
+          "fr": "Cashmere",
+          "en": "Cashmere"
+        },
+        {
+          "id": "crewneck & scoopneck",
+          "fr": "Col rond",
+          "en": "Crewneck & Scoopneck"
+        },
+        {
+          "id": "turtleneck",
+          "fr": "Col roulé",
+          "en": "Turtleneck"
+        },
+        {
+          "id": "v-neck",
+          "fr": "Col V",
+          "en": "V-Neck"
+        },
+        {
+          "id": "hoodies",
+          "fr": "Sweat à capuche",
+          "en": "Hoodies"
+        }
+      ]
+    },
+    {
+      "id": "shoes",
+      "fr": "Chaussures",
+      "en": "Shoes",
+      "subCategories": [
+        {
+          "id": "athletic",
+          "fr": "Running",
+          "en": "Athletic"
+        },
+        {
+          "id": "boots",
+          "fr": "Bottes",
+          "en": "Boots"
+        },
+        {
+          "id": "lace-up",
+          "fr": "Chaussures à Lacets",
+          "en": " Lace up"
+        },
+        {
+          "id": "slip-ons & loafers",
+          "fr": "Mocassin",
+          "en": "Slip-ons&Loafers"
+        },
+        {
+          "id": "flat",
+          "fr": "Plattes",
+          "en": "Flat"
+        },
+        {
+          "id": "sandals",
+          "fr": "Sandales",
+          "en": "Sandals"
+        },
+        {
+          "id": "sneakers",
+          "fr": "Baskets",
+          "en": "Sneakers"
+        }
+      ]
+    },{
+
+      "id":"swimwear",
+      "fr":"Beach Wear",
+      "en":"Swimwear",
+      "subCategories":[
+        {
+          "id": "classic swim short",
+          "fr": "Short de bain classique",
+          "en": " Classic Siwm Short"
+        },
+        {
+          "id": "printed swim short",
+          "fr": "Short de bain Imprimé",
+          "en": "Printed Swim Short"
+        },
+        {
+          "id": "brief",
+          "fr": "Slip de bain",
+          "en": "Briefs"
+        },
+        {
+          "id": "printed brief",
+          "fr": "Slip de bain imprimé",
+          "en": "Printed Briefs"
+        }
+
+      ]
+    },
+
+    {
+      "id":"jewelery",
+      "fr":"Bijouterie",
+      "en":"Jewellery",
+      "subCategories":[
+        {
+          "id": "bracelet",
+          "fr": "Bracelet",
+          "en": "Bracelet"
+        },
+        {
+          "id": "sport watch",
+          "fr": "Montre de sport",
+          "en": "Sport Watch"
+        },{
+          "id": "classic watch",
+          "fr": "Montre classique",
+          "en": "Classic Watch"
+        },{
+          "id": "gold watch",
+          "fr": "Montre en or",
+          "en": "Montre en or"
+        },{
+          "id": "silver watch",
+          "fr": "Montre en argent",
+          "en": "Silver Watch"
+        },{
+          "id": "cuff links",
+          "fr": "Bouton de Manchette",
+          "en": "Cuff Links"
+        }
+      ]
+    },
+    {
+      "id":"accessories",
+      "fr":"Accessoires",
+      "en":"Accesories",
+      "subCategories":[
+        {
+          "id": "belt",
+          "fr": "Ceintures",
+          "en": "Belt"
+        },
+        {
+          "id": "gloves",
+          "fr": "Gants",
+          "en": "Golves"
+        },{
+          "id": "hat",
+          "fr": "Chapeau",
+          "en": "Hat"
+        },{
+          "id": "scarve & wrap",
+          "fr": "Echarpe & Châle",
+          "en": "Scarve & Wrap"
+        },
+        {
+          "id": "sunglasses",
+          "fr": "Lunettes de soleil",
+          "en": "Sunglasses"
+        },
+        {
+          "id": "eyeglasses",
+          "fr": "Lunettes de vue",
+          "en": "Eyeglasses"
+        },
+        {
+          "id": "keychains",
+          "fr": "Porte clés",
+          "en": "Key Chains"
+        },
+        {
+          "id": "tech",
+          "fr": "Coque de Téléphone",
+          "en": "Tech"
+        },
+        {
+          "id": "umbrella",
+          "fr": "Parapluie",
+          "en": "Umbrella"
+        },
+        {
+          "id": "cross body bag",
+          "fr": "Sacs à bandoulière",
+          "en": "Cross body bag"
+        },
+        {
+          "id": "borsalino",
+          "fr": "Chapeau borsalino",
+          "en": "Borsalino"
+        },
+        {
+          "id": "luggage",
+          "fr": "Valise",
+          "en": "Luggage"
+        },
+        {
+          "id": "wallet",
+          "fr": "Porte monnaie",
+          "en": "Wallet"
+        },
+        {
+          "id": "ties",
+          "fr": "Cravate",
+          "en": "Ties"
+        }
+      ]
+    },
+    {
+      "id":"bags",
+      "fr":"Sac",
+      "en":"Bags",
+      "subCategories": [
+        {
+          "id": "backpack",
+          "fr": "Sac à dos",
+          "en": "Backpack"
+        },
+        {
+          "id": "clutch",
+          "fr": "Pochette",
+          "en": "Clutch"
+        },
+        {
+          "id": "hobo",
+          "fr": "Besace",
+          "en": "Hobo"
+        },
+        {
+          "id": "satchel",
+          "fr": "Cartable",
+          "en": "Satchel"
+        },
+        {
+          "id": "shoulder",
+          "fr": "Sac à main",
+          "en": "Shoulder"
+        },
+        {
+          "id": "duffel & tote",
+          "fr": "Caba",
+          "en": "Duffel & Tote"
+        },
+        {
+          "id": "wallet",
+          "fr": "Porte Monaie",
+          "en": "Wallet"
+        }
+      ]
+    },
+    {
+      "id":"beauty",
+      "fr":"Beauté",
+      "en":"Beauty",
+      "subCategories":[
+        {
+          "id": "bath & body",
+          "fr": "Savons & crème",
+          "en": "Bath & Body"
+        },
+        {
+          "id": "parfume",
+          "fr": "Parfum",
+          "en": "Fragrance"
+        },
+        {
+          "id": "haircare",
+          "fr": "Soin des cheveux",
+          "en": "Haircare"
+        },
+        {
+          "id": "skincare",
+          "fr": "Soin de la peau",
+          "en": "Skin Care"
+        }
+
+      ]
+    }
+
+  ]
+}
+
+
+
