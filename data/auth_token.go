@@ -7,6 +7,7 @@ import (
 
 type AuthToken struct {
 	Token     string    `json:"token" bson:"token"`
+	Session	  string	`json:"session" bson:"session"`
 	ExpiresOn time.Time `json:"expires_on" bson:"expires_on"`
 }
 
