@@ -63,7 +63,7 @@ func (u User) IsFollowing(toId bson.ObjectId) bool {
 
 func (u User) IsFollowed(by bson.ObjectId) bool {
 	followed := false
-	for _, uId := range u.FollowedBy {
+	for _, uId := range u.FollowedBy && u.Following{
 		if uId == by {
 			followed = true
 		}
