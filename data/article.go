@@ -17,7 +17,7 @@ type ArticleSource struct {
 type Article struct {
 	Id              bson.ObjectId `bson:"_id"`
 	Brand           string        `bson:"brand"`
-	Keywords        []string      // See if we need keyword in french or in english or both
+	Keywords        []string      
 	Name            string
 	Price           float32 `bson:"price"`
 	Category        string
