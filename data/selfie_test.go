@@ -4,7 +4,7 @@ import (
 	"errors"
 	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
 	"testing"
-	//"log"
+	"log"
 )
 
 var validTagList = []Tag{
