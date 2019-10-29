@@ -1,0 +1,607 @@
+{
+  "categories":[
+    {
+      "id": "top",
+      "fr": "Tops",
+      "en": "Tops",
+      "subCategories": [
+        {
+          "id": "t-shirt",
+          "fr": "T-Shirt",
+          "en": "T-Shirt"
+        },
+        {
+          "id": "jumpsuit",
+          "fr": "Combinaison",
+          "en": "Jumpsuit"
+        },
+        {
+          "id": "shortsleeve",
+          "fr": "Manche courtes",
+          "en": "Shortsleeve"
+        },
+        {
+          "id": "sleeveless",
+          "fr": "Sans manches",
+          "en": "Sleeveless"
+        },
+        {
+          "id": "longsleeve",
+          "fr": "Manches longues",
+          "en": "Longsleeve"
+        },
+        {
+          "id": "tank",
+          "fr": "Débardeur",
+          "en": "Tank"
+        },
+        {
+          "id": "tank",
+          "fr": "Débardeur",
+          "en": "Tank"
+        },
+        {
+          "id": "printed",
+          "fr": "Imprimé",
+          "en": "Printed"
+        },
+        {
+          "id": "tunics",
+          "fr": "Tunique",
+          "en": "Tunics"
+        },
+        {
+          "id": "shirt",
+          "fr": "Chemise",
+          "en": "Shirt"
+        },
+        {
+          "id": "cashmere",
+          "fr": "Cashmere",
+          "en": "Cashmere"
+        },
+        {
+          "id": "camisole",
+          "fr": "Caraco",
+          "en": "Camisole"
+        },
+        {
+          "id": "halter",
+          "fr": "Dos nu",
+          "en": "Halter"
+        },
+        {
+          "id": "playsuit",
+          "fr": "Combishort",
+          "en": "Playsuit"
+        }
+      ]
+    },
+    {
+      "id": "dress",
+      "fr": "Robes",
+      "en": "Dress",
+      "subCategories": [
+        {
+          "id": "midi",
+          "fr": "Midi",
+          "en": "Midi"
+        },
+        {
+          "id": "mini",
+          "fr": "Mini",
+          "en": "Mini"
+        },
+        {
+          "id": "maxi",
+          "fr": "Maxi",
+          "en": "Maxi"
+        },
+        {
+          "id": "cocktail",
+          "fr": "Cocktail",
+          "en": "Cocktail"
+        },
+        {
+          "id": "bride",
+          "fr": "Marié",
+          "en": "Bride"
+        },
+        {
+          "id": "bridesmaid",
+          "fr": "Demoiselle d' honneur",
+          "en": "Bridesmaid"
+        }
+      ]
+    },
+    {
+      "id": "skirts",
+      "fr": "Jupes",
+      "en": "Skirts",
+      "subCategories": [
+        {
+          "id": "mini",
+          "fr": "Mini",
+          "en": "Mini"
+        },
+        {
+          "id": "mid-length",
+          "fr": "Mi-longues",
+          "en": "Mid-length"
+        },
+        {
+          "id": "long",
+          "fr": "Longue",
+          "en": "Long"
+        },
+        {
+          "id": "printed",
+          "fr": "Imprimé",
+          "en": "Printed"
+        }
+      ]
+    },
+    {
+      "id": "pants",
+      "fr": "Pantalon",
+      "en": "Pants",
+      "subCategories": [
+        {
+          "id": "denim",
+          "fr": "Jeans",
+          "en": "Denim"
+        },
+        {
+          "id": "cropped",
+          "fr": "Cropped",
+          "en": "Cropped"
+        },
+        {
+          "id": "legging",
+          "fr": "Legging",
+          "en": "Legging"
+        },
+        {
+          "id": "skinny",
+          "fr": "Stretch",
+          "en": "Skinny"
+        },
+        {
+          "id": "wide leg",
+          "fr": "Ample",
+          "en": " Wide Leg"
+        },
+        {
+          "id": "culotte",
+          "fr": "Jupe-culotte",
+          "en": "Culotte"
+        },
+        {
+          "id": "jumpsuit short",
+          "fr": "Combinasion",
+          "en": "Jumpsuit"
+        }
+      ]
+    },
+    {
+      "id": "shorts",
+      "fr": "Shorts",
+      "en": "Shorts",
+      "subCategories": [
+        {
+          "id": "denim",
+          "fr": "Jeans",
+          "en": "Denim"
+        },
+        {
+          "id": "classic",
+          "fr": "Classique",
+          "en": "Classic"
+        },
+        {
+          "id": "printed",
+          "fr": "Imprimé",
+          "en": "Printed"
+        },
+        {
+          "id": "bermuda",
+          "fr": "Bermuda",
+          "en": "Bermuda"
+        },
+        {
+          "id": "rompers",
+          "fr": "Barboteuse",
+          "en": "Rompers"
+        },
+        {
+          "id": "jumpsuit short",
+          "fr": "Combishort",
+          "en": "Jumpsuit"
+        }
+      ]
+    },
+    {
+      "id": "outwear",
+      "fr": "Manteaux",
+      "en": "Outwear",
+      "subCategories": [
+        {
+          "id": "coat",
+          "fr": "Manteau de pluie",
+          "en": "Coat"
+        },
+        {
+          "id": "leather",
+          "fr": "Cuir",
+          "en": "Leather"
+        },
+        {
+          "id": "suede",
+          "fr": "Daim",
+          "en": "Suede"
+        },
+        {
+          "id": "puffers",
+          "fr": "Doudoune",
+          "en": "Puffers"
+        },
+        {
+          "id": "trenchcoat",
+          "fr": "Trench",
+          "en": "Trenchcoat"
+        },
+        {
+          "id": "overcoat",
+          "fr": "Pardessus",
+          "en": "Overcoat"
+        },
+        {
+          "id": "wool",
+          "fr": "Laine",
+          "en": "Wool"
+        }
+      ]
+    },
+    {
+      "id": "jackets",
+      "fr": "Veste",
+      "en": "Jackets",
+      "subCategories": [
+        {
+          "id": "denim",
+          "fr": "Jeans",
+          "en": "Denim"
+        },
+        {
+          "id": "leather",
+          "fr": "Cuir",
+          "en": "Leather"
+        },
+        {
+          "id": "blazers",
+          "fr": "Blazers",
+          "en": "Blazers"
+        },
+        {
+          "id": "faux fur",
+          "fr": "Fausse fourrure",
+          "en": " Faux fur"
+        },
+        {
+          "id": "suede",
+          "fr": "Daim",
+          "en": "Suede"
+        },
+        {
+          "id": "velvet",
+          "fr": "Velour",
+          "en": "Velvet"
+        }
+      ]
+    },
+    {
+      "id": "sweaters",
+      "fr": "Pull & Gilets",
+      "en": "Sweaters",
+      "subCategories": [
+        {
+          "id": "cardigan",
+          "fr": "Gilet",
+          "en": "Gilet"
+        },
+        {
+          "id": "cashmere",
+          "fr": "Cashmere",
+          "en": "Cashmere"
+        },
+        {
+          "id": "crewneck & scoopneck",
+          "fr": "Col rond",
+          "en": "Crewneck & Scoopneck"
+        },
+        {
+          "id": "turtleneck",
+          "fr": "Col roulé",
+          "en": "Turtleneck"
+        },
+        {
+          "id": "v-neck",
+          "fr": "Col V",
+          "en": "V-Neck"
+        },
+        {
+          "id": "hoodies",
+          "fr": "Sweat à capuche",
+          "en": "Hoodies"
+        }
+      ]
+    },
+    {
+      "id": "shoes",
+      "fr": "Chaussures",
+      "en": "Shoes",
+      "subCategories": [
+        {
+          "id": "athletic",
+          "fr": "Running",
+          "en": "Athletic"
+        },
+        {
+          "id": "boots",
+          "fr": "Bottes",
+          "en": "Boots"
+        },
+        {
+          "id": "booties",
+          "fr": "Bottines",
+          "en": "booties"
+        },
+        {
+          "id": "leather boots",
+          "fr": "Bottes en cuir",
+          "en": "Leather boots"
+        },
+        {
+          "id": "over the knee boots",
+          "fr": "Bottes Hautes",
+          "en": "Over the knee boots"
+        },
+        {
+          "id": "flat",
+          "fr": "Plattes",
+          "en": "Flat"
+        },
+        {
+          "id": "mules & clogs",
+          "fr": "Sandales à talons",
+          "en": "Mules & Clogs"
+        },
+        {
+          "id": "platforms",
+          "fr": "Talons hauts",
+          "en": "Platform"
+        },
+        {
+          "id": "pumps",
+          "fr": "Escarpin",
+          "en": "Pumps"
+        },
+        {
+          "id": "sandals",
+          "fr": "Sandales",
+          "en": "Sandals"
+        },
+        {
+          "id": "sneakers",
+          "fr": "Baskets",
+          "en": "Sneakers"
+        },
+        {
+          "id": "wedges",
+          "fr": "Semelles compensées",
+          "en": "Wedges"
+        }
+      ]
+    },
+    {
+      "id":"bags",
+      "fr":"Sac",
+      "en":"Bags",
+      "subCategories": [
+        {
+          "id": "backpack",
+          "fr": "Sac à dos",
+          "en": "Backpack"
+        },
+        {
+          "id": "clutch",
+          "fr": "Pochette",
+          "en": "Clutch"
+        },
+        {
+          "id": "hobo",
+          "fr": "Besace",
+          "en": "Hobo"
+        },
+        {
+          "id": "satchel",
+          "fr": "Cartable",
+          "en": "Satchel"
+        },
+        {
+          "id": "shoulder",
+          "fr": "Sac à main",
+          "en": "Shoulder"
+        },
+        {
+          "id": "duffel & tote",
+          "fr": "Caba",
+          "en": "Duffel & Tote"
+        },
+        {
+          "id": "wallet",
+          "fr": "Porte Monaie",
+          "en": "Wallet"
+        }
+      ]
+    }, {
+
+      "id":"swimwear",
+      "fr":"Beach Wear",
+      "en":"Swimwear",
+      "subCategories":[
+        {
+          "id": "one-piece",
+          "fr": "Monokini",
+          "en": "One-Piece"
+        },
+        {
+          "id": "two-piece",
+          "fr": "Bikini",
+          "en": "Two-Piece"
+        },
+        {
+          "id": "cover-up",
+          "fr": "Paréo",
+          "en": "Cover up"
+        }
+      ]
+    },{
+      "id":"jewelery",
+      "fr":"Bijouterie",
+      "en":"Jewellery",
+      "subCategories":[
+        {
+          "id": "bracelet",
+          "fr": "Bracelet",
+          "en": "Bracelet"
+        }, {
+          "id": "charm",
+          "fr": "Breloque",
+          "en": "Charm"
+        },{
+          "id": "earrings",
+          "fr": "Boucles d'oreilles",
+          "en": "Earrings"
+        },{
+          "id": "necklace",
+          "fr": "Collier",
+          "en": "Necklace"
+        },{
+          "id": "pins",
+          "fr": "Pins",
+          "en": "Pins"
+        },{
+          "id": "ring",
+          "fr": "Bague",
+          "en": "Ring"
+        },
+        {
+          "id": "diamond ring",
+          "fr": "Bague en diamants",
+          "en": "Diamond ring"
+        },
+        {
+          "id": "watch",
+          "fr": "Montres",
+          "en": "Watch"
+        }
+      ]
+    },{
+    "id":"accessories",
+    "fr":"Accessoires",
+    "en":"Accesories",
+    "subCategories":[
+      {
+        "id": "belt",
+        "fr": "Ceintures",
+        "en": "Belt"
+      },
+      {
+        "id": "gloves",
+        "fr": "Gants",
+        "en": "Golves"
+      },{
+        "id": "hat",
+        "fr": "Chapeau",
+        "en": "Hat"
+      },{
+        "id": "scarve & wrap",
+        "fr": "Echarpe & Châle",
+        "en": "Scarve & Wrap"
+      },
+      {
+        "id": "sunglasses",
+        "fr": "Lunettes de soleil",
+        "en": "Sunglasses"
+      },
+      {
+        "id": "eyeglasses",
+        "fr": "Lunettes de vue",
+        "en": "Eyeglasses"
+      },
+      {
+        "id": "keychains",
+        "fr": "Porte clés",
+        "en": "Key Chains"
+      },
+      {
+        "id": "tech",
+        "fr": "Coque de Téléphone",
+        "en": "Tech"
+      },
+      {
+        "id": "umbrella",
+        "fr": "Parapluie",
+        "en": "Umbrella"
+      },
+      {
+        "id": "headband",
+        "fr": "Serre-tête",
+        "en": "Headband"
+      },
+      {
+        "id": "hair accessories",
+        "fr": "Accessoires pour cheveux",
+        "en": "Hair accessories"
+      }
+    ]},
+    {
+      "id":"beauty",
+      "fr":"Beauté",
+      "en":"Beauty",
+      "subCategories":[
+        {
+          "id": "bath & body",
+          "fr": "Savons & crème",
+          "en": "Bath & Body"
+        },
+        {
+          "id": "parfume",
+          "fr": "Parfum",
+          "en": "Fragrance"
+        },
+        {
+          "id": "haircare",
+          "fr": "Soin des cheveux",
+          "en": "Haircare"
+        },
+        {
+          "id": "makeup",
+          "fr": "Maquillage",
+          "en": "Makeup"
+        },
+        {
+          "id": "skincare",
+          "fr": "Soin de la peau",
+          "en": "Skin Care"
+        }
+
+      ]
+    }
+
+  ]
+}
+
+
+
