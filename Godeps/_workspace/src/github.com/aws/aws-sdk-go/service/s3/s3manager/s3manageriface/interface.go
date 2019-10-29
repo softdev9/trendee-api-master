@@ -4,8 +4,8 @@ package s3manageriface
 import (
 	"io"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/s3"
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/s3/s3manager"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/s3"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/s3/s3manager"
 )
 
 // DownloaderAPI is the interface type for s3manager.Downloader.

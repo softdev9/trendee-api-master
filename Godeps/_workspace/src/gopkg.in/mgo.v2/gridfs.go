@@ -36,7 +36,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
 )
 
 type GridFS struct {

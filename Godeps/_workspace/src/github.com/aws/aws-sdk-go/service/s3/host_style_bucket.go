@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/request"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awsutil"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/request"
 )
 
 var reDomain = regexp.MustCompile(`^[a-z0-9][a-z0-9\.\-]{1,61}[a-z0-9]$`)

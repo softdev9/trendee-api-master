@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client/metadata"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client/metadata"
 )
 
 // A Request is the service request to be made.

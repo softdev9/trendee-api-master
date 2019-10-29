@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/credentials"
 )
 
 // UseServiceDefaultRetries instructs the config to use the service's own default

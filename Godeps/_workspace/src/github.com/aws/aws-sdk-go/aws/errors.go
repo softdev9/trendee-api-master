@@ -1,6 +1,6 @@
 package aws
 
-import "github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
+import "github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
 
 var (
 	// ErrMissingRegion is an error that is returned if region configuration is

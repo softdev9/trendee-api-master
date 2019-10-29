@@ -1,7 +1,7 @@
 package mailgun
 
 import (
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/mbanzon/simplehttp"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/mbanzon/simplehttp"
 )
 
 // GetWebhooks returns the complete set of webhooks configured for your domain.

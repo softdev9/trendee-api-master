@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
 	"time"
 )
 
@@ -17,7 +17,7 @@ type ArticleSource struct {
 type Article struct {
 	Id              bson.ObjectId `bson:"_id"`
 	Brand           string        `bson:"brand"`
-	Keywords        []string      
+	Keywords        []string      // See if we need keyword in french or in english or both
 	Name            string
 	Price           float32 `bson:"price"`
 	Category        string

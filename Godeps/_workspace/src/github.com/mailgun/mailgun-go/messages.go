@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/mbanzon/simplehttp"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/mbanzon/simplehttp"
 )
 
 // MaxNumberOfRecipients represents the largest batch of recipients that Mailgun can support in a single API call.

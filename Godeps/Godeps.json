@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/spiderdev86/trendee-api",
+	"ImportPath": "github.com/softdev9/trendee-api-master",
 	"GoVersion": "go1.8",
 	"Packages": [
 		"./..."

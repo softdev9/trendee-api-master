@@ -3,7 +3,7 @@
 package mgo
 
 import (
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/gopkg.in/mgo.v2/internal/sasl"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/gopkg.in/mgo.v2/internal/sasl"
 )
 
 func saslNew(cred Credential, host string) (saslStepper, error) {

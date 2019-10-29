@@ -3,7 +3,7 @@ package mailgun
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/mbanzon/simplehttp"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/mbanzon/simplehttp"
 	"strconv"
 )
 

@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/go-ini/ini"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/go-ini/ini"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
 )
 
 // SharedCredsProviderName provides a name of SharedCreds provider

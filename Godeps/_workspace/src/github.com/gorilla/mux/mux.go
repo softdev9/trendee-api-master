@@ -11,7 +11,7 @@ import (
 	"path"
 	"regexp"
 
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/gorilla/context"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/gorilla/context"
 )
 
 // NewRouter returns a new router instance.

@@ -1,7 +1,7 @@
 package jaccard
 
 import (
-	"github.com/spiderdev86/trendee-api/data"
+	"github.com/softdev9/trendee-api-master/data"
 	"sort"
 )
 

@@ -3,7 +3,7 @@
 package s3
 
 import (
-	"github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/aws/aws-sdk-go/private/waiter"
+	"github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/aws/aws-sdk-go/private/waiter"
 )
 
 func (c *S3) WaitUntilBucketExists(input *HeadBucketInput) error {

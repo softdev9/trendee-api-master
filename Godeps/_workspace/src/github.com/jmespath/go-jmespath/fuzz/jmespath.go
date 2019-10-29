@@ -1,6 +1,6 @@
 package jmespath
 
-import "github.com/spiderdev86/trendee-api/Godeps/_workspace/src/github.com/jmespath/go-jmespath"
+import "github.com/softdev9/trendee-api-master/Godeps/_workspace/src/github.com/jmespath/go-jmespath"
 
 // Fuzz will fuzz test the JMESPath parser.
 func Fuzz(data []byte) int {
