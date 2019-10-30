@@ -21,9 +21,9 @@ type IncomingToken struct {
 }
 
 const (
-	fbAppId         = "1533123110306008"
-	fbAppSecret     = "92ad51bb5b4a60ec5258493a40198423"
-	fbAPPToken      = "1533123110306008|CPvop6hv7AFhwhUZnZ3sTVKU7w8"
+	fbAppId         = "****************"
+	fbAppSecret     = "********************************"
+	fbAPPToken      = "****************|+++++++++++++++++++++"
 	fbDebugTokenURL = "https://graph.facebook.com/debug_token"
 	fbGetUserInfos  = "https://graph.facebook.com/me"
 )
