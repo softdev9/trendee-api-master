@@ -79,6 +79,7 @@ func main() {
 	r.HandleFunc("/appinvite", appinvite.GetAppInviteHTML).Methods("GET")
 	r.HandleFunc("/anonymous/selfie", selfie.GetDetailsAnonymous).Methods("GET")
 	r.HandleFunc("/anonymous/article", article.GetDetailsAnonymous).Methods("GET")
+	r.HandleFunc("/anonymous/category", article.GetDetailsAnonymous).Methods("GET") // test by softdev9
 
 	http.Handle("/", handlers.Adapt(
 		r,
